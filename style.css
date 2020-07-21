@@ -39,6 +39,9 @@ main .intro {
   font-size: 24px;
   color: #6b655b;
 }
+.center {
+    text-align:center;
+}
 /* groups/ items */
 .wrapper {
     width: 100%;
