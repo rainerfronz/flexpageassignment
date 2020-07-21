@@ -5,7 +5,8 @@ body {
 
 }
 img {
-    width: 50%;
+    max-width: 500px;
+    
 }
 main h2 {
     font-size: 25px;
@@ -29,6 +30,9 @@ header {
     font-family:'Courier New', Courier, monospace;
     font-size: 45px;
 
+}
+.mainpic {
+text-align: center; 
 }
 /*mains */main  .wrapper  h2 {
   padding-left: 10px;
