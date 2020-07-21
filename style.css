@@ -34,7 +34,8 @@ header {
 .mainpic {
 text-align: center; 
 }
-/*mains */main  .wrapper  h2 {
+/*mains */
+main  .wrapper  h2 {
   padding-left: 10px;
   margin-bottom: 0;
 }
@@ -43,12 +44,13 @@ main .intro {
   font-size: 24px;
   color: #6b655b;
 }
-main .center {
+.center {
     text-align: center;
 }
 /* groups/ items */
 .wrapper {
-    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
 
 }
 .group {
