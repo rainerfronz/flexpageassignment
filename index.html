@@ -13,10 +13,21 @@
 <body>
   <header class="center">
     <h1>Rainer Fronz</h1>
+    <nav>
+
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+
+      </ul>
+
+    </nav>
   </header>
   <main>
     <div class="wrapper">
-      <article>
+      <article id="home">
         <div class="group">
           <div class="mainpic">
             <img src="images/raineririspic.JPG" alt="Rainer with Daughter">
@@ -24,7 +35,7 @@
           <div class="item">
             <h2 class="center">Hello, I am Rainer!</h2>
             <h3 class="center">Minneapolis, MN</h3>
-        
+
             <p> I am currently a student in the Software Engineering Program at Thinkful.
               I am well versed in front-end and back-end web development. I create functional easy to use web
               experiences
@@ -41,12 +52,12 @@
     </div>
 
     <hr>
-    <article>
+    <article id="about">
       <div class="wrapper">
 
         <h3 class="center">About Me</h3>
         <div class="group">
-          <div class="item-double">
+          <div class="item">
             <p> I discovered my passion for coding while distance teaching my daughter this spring.
               I found teaching her and learning simple coding prcesses was something I really enjoyed. I have submerged
               myself in
@@ -60,6 +71,15 @@
             </p>
             <p>In my spare time, I love to spend time with my daughter Iris. Gardening in our yard, building projects,
               having fun are top activites for the two of us. I also enjoy cooking and listening to vinyl records.</p>
+            <div class="item center">
+              <h2>Services</h2>
+              <ul>
+                <li>Back End Developer</li>
+                <li>Web Design</li>
+                <li>Data Security</li>
+                <li>Application Construction</li>
+              </ul>
+            </div>
           </div>
           <div class="mainpic">
             <img src="images/gardenflower.jpg" alt=" Sweet Corn in the Garden">
@@ -70,25 +90,70 @@
 
     <hr>
     <div class="wrapper">
-      <article>
+      <article id="portfolio">
         <h2 class="center">Portfolio</h2>
-        <div class="group">
+        <div class="group portfo">
           <div class="item">
-            <p>Project 1</p>
+            <p>Crazy Fun Times Math App</p>
+            <img src="images/comingsoon.jpg" alt="Image Coming Soon">
+
+            <p>This app is a concept app to assist in teaching Math Skills to all ages. It's goal is to provide and fun
+              and easy to use system to learn and practice math in a practical real like situations</p>
           </div>
+
           <div class="item">
-            <p>project 2</p>
+            <p>How To Count Carbs App</p>
+            <img src="images/comingsoon.jpg" alt="Image Coming Soon">
+
+            <p>I created this app to help Type 1 diatetics and dieters in general to get a firm grasp of how many carbs
+              are in food items perserving. It also provides a portion size guide. </p>
           </div>
+        </div>
+        <div class="group portfo">
           <div class="item">
-            <p>Project 3</p>
+            <p>Music Stream Locator App</p>
+            <img src="images/comingsoon.jpg" alt="Image Coming Soon">
+
+            <p>The idea that led to this program, is the issues many artists have in locating fans. This app helps by
+              using data from streaming services to help artists locate fans. It can serve as a promotional guide as
+              well as a tour planner.</p>
+
           </div>
+
           <div class="item">
-            <p>Project 4</p>
+            <p>How To Eat Sushi App</p>
+            <img src="images/comingsoon.jpg" alt="Image Coming Soon">
+
+            <p>Ever wondered if everyone else as the sushi bar is making fun of how you are eating your sashimi? No
+              longer fear. This app explains what each common sushi menu item is and the best way to eat it. Enjoy!
+            </p>
+
           </div>
         </div>
       </article>
     </div>
     <hr>
+    <section id="contact">
+
+      <h2 class="center">Email Form</h2>
+      <div class="group">
+        <div class="item-double">
+
+          <form action="https://formspree.io/rainerfronz44@gmail.com" method="post">
+
+            <label for="user-name">Your Name:</label>
+            <input id="user-name" type="text" name="name">
+
+            <label for="user-email">Email:</label>
+            <input id="user-email" type="text" name="email">
+            <label for="user-message">Message</label>
+            <textarea id="form-message" name="message" rows="4" cols="15"></textarea>
+
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
     <footer class="wrapper center">
       <!-- contact info - linked and github -->
       <h2>Contact Rainer</h2>
@@ -106,7 +171,7 @@
 
 
 
-    
+
 
     <script src="script.js"></script>
 
