@@ -1,2 +1,3 @@
 # flexpageassignment
-flex portfolio page ver1
+flex portfolio page with contact
+No app projects yet. just placeholder images and made up apps. 
