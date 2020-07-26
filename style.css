@@ -25,6 +25,11 @@ main p footer {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     line-height: 1.5en;
     margin-bottom: 0em;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+   
 }
 /*header*/
 header {
@@ -114,7 +119,7 @@ form {
 a:link    { color: grey;  }
 a:visited { color: grey;   }
 a:hover   { color: black; }
-a:active  { color: aqua;  }
+a:active  { color:grey; }
 
 
 /*desktop */
